@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Learning - Learn HTML, CSS, JS, React</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="#">Frontend<span>Learning</span></a></h1>
+            <nav class="main-nav">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h2>Master Frontend Development, Step-by-Step</h2>
+                <p>Your ultimate resource for learning HTML, CSS, JavaScript, and React through curated video links.</p>
+                <a href="#courses" class="btn btn-primary">Start Learning Now</a>
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section">
+            <div class="container">
+                <h3>Our Learning Paths</h3>
+                <div class="course-categories">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="html">HTML</button>
+                    <button class="category-btn" data-category="css">CSS</button>
+                    <button class="category-btn" data-category="javascript">JavaScript</button>
+                    <button class="category-btn" data-category="react">React</button>
+                </div>
+
+                <div class="course-grid">
+                    <div class="course-card" data-category="html">
+                        
+                        <h4>HTML Basics for Beginners</h4>
+                        <p>Learn the fundamental building blocks of the web.</p>
+                        <a href="https://youtu.be/HcOc7P5BMi4?si=xjU_jweivzWI6sDM" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="course-card" data-category="html">
+                        <h4>HTML Forms & Input Types</h4>
+                        <p>Create interactive forms for user input.</p>
+                        <a href="https://youtu.be/8qBPKXRUOnk?si=YRhXD0hQ-Iqmw_Xy" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="course-card" data-category="css">
+                        <h4>CSS Flexbox Tutorial</h4>
+                        <p>Master responsive layouts with Flexbox.</p>
+                        <a href="https://youtu.be/5qVuORLniwM?si=2N2nBqZo0GNMjqVt" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="course-card" data-category="css">
+                        <h4>CSS Grid Layout Explained</h4>
+                        <p>Build complex two-dimensional layouts with Grid.</p>
+                        <a href="https://youtu.be/S9OiWe5iBYo?si=38PZdKfE1ybD5zeB" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="course-card" data-category="css">
+                        <h4>Responsive Web Design with Media Queries</h4>
+                        <p>Make your websites look great on any device.</p>
+                        <a href="https://youtu.be/ESnrn1kAD4E?si=vPsxhqUXi8Jq0z3D" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="course-card" data-category="javascript">
+                        <h4>JavaScript Fundamentals</h4>
+                        <p>Start your journey with programming logic.</p>
+                        <a href="https://youtu.be/2Ji-clqUYnA?si=RuPNz7D1LFVBfiNC" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="course-card" data-category="javascript">
+                        <h4>DOM Manipulation with JS</h4>
+                        <p>Interact with HTML elements dynamically.</p>
+                        <a href="https://youtu.be/EerdGm-ehJQ?si=jMvew8USSCrsH5bs" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="course-card" data-category="react">
+                        <h4>React JS Crash Course</h4>
+                        <p>Build dynamic user interfaces with React.</p>
+                        <a href="https://youtu.be/w7ejDZ8SWv8?si=IilsFls7UDodwkIJ" target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="course-card" data-category="react">
+                        <h4>State Management in React</h4>
+                        <p>Understand how to manage data in React applications.</p>
+                        <a href="https://youtu.be/Xe8CkYZvCig?si=DpGfOGge4FVO7YWu"target="_blank" class="btn btn-secondary">Watch Video <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h3>About FrontendLearning</h3>
+                <p>Welcome to FrontendLearning, I am aryan prajapati i am a frontend developer ,your dedicated platform for mastering frontend web development. Our mission is to simplify your learning journey by curating the best video tutorials from YouTube, covering everything from the basics of HTML and CSS to advanced JavaScript and React concepts.</p>
+                <p> with the help of this website you will get direct link to the best videos on youtube you will not have to search much.😎We believe that high-quality education should be accessible to everyone. That's why we've gathered these resources to help you build beautiful, interactive, and robust web applications. Start exploring today and turn your coding dreams into reality!</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h3>Get in Touch</h3>
+                <h1>email.id= aryanprajapati124421@gmail.com</h1>
+                <p>Have questions or suggestions? We'd love to hear from you!</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 FrontendLearning by Aryan prajapati. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/ap_aryan1?igsh=MThpd3J3Y2wwbWtzYg==" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aryan-prajapati-7739672b5/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/aryan1234-del" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
